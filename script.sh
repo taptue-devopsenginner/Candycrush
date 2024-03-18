@@ -1,4 +1,5 @@
 #!/bin/bash
+# this script is valide just for ubuntu server.
 sudo apt update -y
 sudo touch /etc/apt/keyrings/adoptium.asc
 sudo wget -O /etc/apt/keyrings/adoptium.asc https://packages.adoptium.net/artifactory/api/gpg/key/public
